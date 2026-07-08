@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>???? ??????????? ?????? - ????? ????</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f0f2f5;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1a1a2e;
+            font-size: 32px;
+            margin-top: 20px;
+        }
+        .subtitle {
+            color: #555;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        .product {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+        }
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+        }
+        .product h3 {
+            font-size: 24px;
+            color: #1a1a2e;
+        }
+        .product .price {
+            font-size: 28px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .btn-whatsapp {
+            background: #25D366;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-whatsapp:hover {
+            background: #1da851;
+            transform: scale(1.05);
+        }
+        .btn-upi {
+            background: #004d99;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .btn-upi:hover {
+            background: #003366;
+            transform: scale(1.05);
+        }
+        .payment-box {
+            background: #e8f5e9;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .payment-box h3 {
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+        .payment-box .upi-id {
+            background: white;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #004d99;
+            display: inline-block;
+            margin: 10px 0;
+            border: 2px dashed #004d99;
+        }
+        .contact-box {
+            background: #fff3cd;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .contact-box a {
+            color: #004d99;
+            font-weight: bold;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>?? ???? ??????????? ??????</h1>
+    <p class="subtitle">??? ?? ???, ??? ?? ?????? — ??? ????? ????!</p>
+
+    <!-- ?????? 1 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/300x200/ffcccc/333?text=??????+1" alt="?????? 1">
+        <h3>?? ?????? 1</h3>
+        <div class="price">?99</div>
+        <p>??????? ??????????? ????????, ????? ?????</p>
+        <a href="https://wa.me/919917083654?text=????+??????+1+?????" class="btn-whatsapp">?? WhatsApp ?? ????? ????</a>
+    </div>
+
+    <!-- ?????? 2 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/300x200/ccffcc/333?text=??????+2" alt="?????? 2">
+        <h3>?? ?????? 2</h3>
+        <div class="price">?99</div>
+        <p>??? ???????, ???? ?????</p>
+        <a href="https://wa.me/919917083654?text=????+??????+2+?????" class="btn-whatsapp">?? WhatsApp ?? ????? ????</a>
+    </div>
+
+    <!-- ?????? 3 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/300x200/ccccff/333?text=??????+3" alt="?????? 3">
+        <h3>? ?????? 3</h3>
+        <div class="price">?99</div>
+        <p>???????? ??????? ????, ????? ?? ??? ???????</p>
+        <a href="https://wa.me/919917083654?text=????+??????+3+?????" class="btn-whatsapp">?? WhatsApp ?? ????? ????</a>
+    </div>
+
+    <!-- ?? ?????? ?? ????? -->
+    <div class="payment-box">
+        <h3>?? ?????? ???? ?????</h3>
+        <p>????? ???? ?? ??? ???? ???? ?? UPI ?? ?????:</p>
+        <div class="upi-id">?? imohmad07@okhdfcbank</div>
+        <p style="margin: 10px 0;">?? ???</p>
+        <a href="https://wa.me/919917083654?text=????+??????+????+??" class="btn-upi">?? WhatsApp ?? ?????? ????</a>
+        <p style="margin-top: 10px; font-size: 14px; color: #555;">(?????? ?? ??? ???? WhatsApp ?? ????? ??????? ????)</p>
+    </div>
+
+    <!-- ?? ?????? -->
+    <div class="contact-box">
+        <h4>?? ?????? ?? ?? ?????? ????</h4>
+        <p>?? ??????: <strong>????-????</strong></p>
+        <p>?? WhatsApp: <a href="https://wa.me/919917083654">???? ????? ????</a></p>
+    </div>
+
+    <div class="footer">
+        © 2026 - ???? ???? ??????? ??
+    </div>
+
+</div>
+
+</body>
+</html>
